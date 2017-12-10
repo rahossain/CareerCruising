@@ -33,7 +33,7 @@ namespace GraduationTracker
                         : new Tuple<bool, STANDING>(false, standing);
         }
 
-        private static STANDING GetStanding(int average)
+        private  STANDING GetStanding(int average)
         {
             STANDING standing;
             if (average < 50)
